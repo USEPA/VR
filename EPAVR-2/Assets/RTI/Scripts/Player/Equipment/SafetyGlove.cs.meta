@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 19c95f899fcfb6d4c9437c2136989033
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_gloveMat: {fileID: 2100000, guid: f0899c9275d9b3945b13031464a12145, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

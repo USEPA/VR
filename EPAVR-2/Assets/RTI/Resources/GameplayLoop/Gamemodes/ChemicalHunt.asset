@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e6cdddfe0788548b0767bea1a4ee25, type: 3}
+  m_Name: ChemicalHunt
+  m_EditorClassIdentifier: 
+  m_availableScenarios:
+  - {fileID: 11400000, guid: 250e87fec31c617439acc37557fbb745, type: 2}
+  - {fileID: 11400000, guid: b1297b2b2bf58cd4a8d5a7619d4ba223, type: 2}
+  - {fileID: 11400000, guid: 5fdf86fb4525ed6448e198f50d72b556, type: 2}
+  m_availableTools:
+  - {fileID: 8235994822867160519, guid: 0ce169342a435794b897d7eafffa0f8a, type: 3}
+  - {fileID: 6808719437744232129, guid: c404d8acf6dc40c41ac01fd7838145b0, type: 3}
+  - {fileID: 2891182425384223361, guid: 1619fb113f710f84e96c6af21df63a17, type: 3}
+  m_userTabletPrefab: {fileID: 7172003656831382905, guid: c9151352772b87e43be0f05c2e96bce3, type: 3}
+  m_userToolboxPrefab: {fileID: 5473131405816837826, guid: 7383dc7dd4132164b9399ecc0ca9a3d4, type: 3}
+  m_scoreTypes: 000000000100000002000000
+  m_icon: {fileID: 21300000, guid: 2e6c089fc96895c41accd8a390c7a79e, type: 3}

@@ -1,0 +1,125 @@
+fileFormatVersion: 2
+guid: 3cfb0583655010d469c7a9af63960d13
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Car_Body
+    100004: LB_Wheel
+    100006: LF_Wheel
+    100008: RB_Wheel
+    100010: RF_Wheel
+    100012: FrontDoorLeft
+    100014: FrontDoorRight
+    100016: RearDoor
+    100018: satellite
+    100020: satelliteBase
+    100022: SideDoor
+    400000: //RootNode
+    400002: Car_Body
+    400004: LB_Wheel
+    400006: LF_Wheel
+    400008: RB_Wheel
+    400010: RF_Wheel
+    400012: FrontDoorLeft
+    400014: FrontDoorRight
+    400016: RearDoor
+    400018: satellite
+    400020: satelliteBase
+    400022: SideDoor
+    2300000: //RootNode
+    2300002: Car_Body
+    2300004: LB_Wheel
+    2300006: LF_Wheel
+    2300008: RB_Wheel
+    2300010: RF_Wheel
+    2300012: FrontDoorLeft
+    2300014: FrontDoorRight
+    2300016: RearDoor
+    2300018: satellite
+    2300020: satelliteBase
+    2300022: SideDoor
+    3300000: //RootNode
+    3300002: Car_Body
+    3300004: LB_Wheel
+    3300006: LF_Wheel
+    3300008: RB_Wheel
+    3300010: RF_Wheel
+    3300012: FrontDoorLeft
+    3300014: FrontDoorRight
+    3300016: RearDoor
+    3300018: satellite
+    3300020: satelliteBase
+    3300022: SideDoor
+    4300000: Model_Car_Public_Newsvan
+    4300002: Civ_Public_Newsvan
+    4300004: LB_Wheel
+    4300006: LF_Wheel
+    4300008: RB_Wheel
+    4300010: RF_Wheel
+    4300012: Car_Body
+    4300014: RearDoor
+    4300016: FrontDoorRight
+    4300018: FrontDoorLeft
+    4300020: satellite
+    4300022: SideDoor
+    4300024: satelliteBase
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

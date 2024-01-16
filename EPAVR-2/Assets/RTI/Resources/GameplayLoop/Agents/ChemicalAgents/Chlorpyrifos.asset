@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79d28ed05959dd409b5c477c8f1f1a0, type: 3}
+  m_Name: Chlorpyrifos
+  m_EditorClassIdentifier: 
+  m_fullName: Chlorpyrifos
+  m_abbreviation: CHL
+  m_casRegistryNumber: {x: 2921, y: 88, z: 2}
+  m_hazardProperties:
+    m_isHazardous: 1
+    m_isWashable: 0
+    m_isExplosive: 0
+    m_isFlammable: 0
+  m_spawnableTypes: 01000000
+  m_isSpawnableLiquid: 1
+  m_isSpawnableSolid: 0
+  m_spawnColor: {r: 0.9245283, g: 0.9245283, b: 0.9245283, a: 0.4}

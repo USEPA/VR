@@ -1,0 +1,101 @@
+2.7
+
+Fixed an issue with the input manager where OVRInputs wouldn't work if the controller connected late.
+Fixed an issue where sockets with overlapping triggers would infinitely grab the socket out of it's neighbor.
+HVRGrabbable - OriginalCollisionMode, WasGravity, Was Kinematic setters set to public so they can be modified by user while grabbed.
+Barebones Scene - added OpenXR Rig variant.
+Tweaked hand inertia tensor and default wrist strength.
+
+
+Haptics Updates:
+	Haptics fields removed from HVRForceGrabber and HVRHandGrabber and moved to HVRGrabHaptics scriptable object that can be set on the HVRInputManager
+	InputSystem Controller updated for OpenXR 1.3 where they finally updated full haptic functionality which allows haptic frequency adjustments.
+	HVRGunBase: Added HVRGunHaptics Scriptable Object and HapticsGrabbable field that let's you decide which other grabbable on the gun will vibrate the hand holding it.
+	HVRGrabbableImpactHaptics & HVRHandImpactHaptics - adds collision haptics to grabbable and the physics hands. Uses HVRImpactHaptics scriptable object for haptics settings.
+ 	HVRInputManager - Updated with HVRGrabHaptics settings reference.
+	Example prefabs updated with new haptic components.
+
+New Scriptable Objects:
+
+	HVRImpactHaptics:
+		Timeout : time before another haptic vibration is allowed since the last.
+		Sqr Mag Threshold : post collision velocity threshold required to vibrate.
+		Amp Curve: animation curve used to scale haptic amplitude by collision force.
+		Max Force: Collision force is divided by this value and fed into the amp curve.
+		Duration: Haptic Duration
+		Frequency: Haptic Frequency
+		
+	HVRGunHaptics:
+		DryFire: haptic when pulling trigger with empty gun.
+		Fire: when the gun shoots.
+		Trigger Released: when trigger drops below pull threshold.
+		Trigger Squeezed: constant haptics while trigger is being pulled.
+		Cocking Handle Eject: when eject threshold is met.
+		Cocking Handle Chambered Round: when chambered round threshold hit.
+		Cocking Handle Released: when cocking handle is released.
+		Ammo Socketed: when a magazine enters the mag socket.
+		Ammo Socket Released: when mag socket releases it's object.
+	
+	
+	HVRGrabHaptics:
+		Hand Grab: when hand joint attaches
+		Hand Release: when dropping object
+		Hand Hover: when hand hovers and object
+		Force Grab: when force grabber starts grabbing
+		Force Hover: when force grabber hovers
+
+
+
+2.6.3
+
+Tweaked wrist strength to be more responsive
+Added box collider to the tech demo hands.
+Fixed an issue with the hand indicators not showing due to remote grab and hand grab sharing the same one.
+Gun Creator 
+	-HVRRequireOtherGrabbable added to the dummy magazine grabbable linked to main grabbable
+	-PhysicsPoserFallback set to false on dummy mag grab to fix grab indicator used.
+	-Example guns updated.
+
+
+2.6
+
+Major improvements to dynamic pose grabbing:
+	- When force grabbing the palm will align towards the collider to help prevent finger overlap.
+	- Dynamic grab now works with the "Hand Grabs" feature where the hand can move to the object.
+	- Fingers now smoothly bend to their dynamic pose instead of snapping immediately
+	- Grabbable objects now smoothly come into the hand instead of snapping immediately
+	
+Hand Pose Editor: 
+ 	- Updated to show the bone gizmos while preview hands are active, even if another object is selected.	
+	- Issues with gizmos not showing up when more than one inspector is open should be fixed.
+
+New VRIK Setup Window - tutorial to follow
+New Custom Hand Setup Window - tutorial to follow 
+
+HVRHandGrabber:
+	- CloneHandModel will no longer clone the skinned mesh renderer, it will instead create an invisible hand clone for collision purposes only leaving the original intact without colliders.
+	- Tweaked default throwing velocity factors on tech demo hands.
+	- Fixed layer reset after a dynamic grab when all collider layers weren't the same to begin with.
+	- DynamicPoseIndicatorMode - chose behaviour of grab indicators when dynamic posing would occur: (None, Transform Position, Palm Position)
+	- DynamicPoseIndicator - grab indicator override when hovering with dynamic posing
+	- Hand Collision with a released object will re-enable immediately for objects without a rigidbody, or a rigidbody that's kinematic.
+	- Fixed an issue where BreakDistance was checking too early before the grab joint was made.
+	- Grip grab being active will prevent Hovering a grabbable.
+	
+HVRGrabbable: 
+	- ParentHandModel now defaulted to false
+	- RigidBody can now be assigned, useful for compound objects like guns with secondary holds.
+	- AutoApplying Grabbable layer will now stop recursing down the tree if another HVRGrabbable is found, and will be performed in Start instead of Awake.
+	- SetupColliders() made public for users who add colliders after start to the object can reset the known collider list.
+	- Colliders / AdditionalIgnoreColliders changed to lists instead of arrays for runtime modification.
+	- RequireOverlapClearance defaulted to false
+	- OverlapTimeout lowered to .20
+
+HVRPosableGrabPoint: Add Check Distance and MaxDistance fields which which can invalidate grab points based on pose to hand distance.
+HVRStabber: Now checks if HVRStabbable component is enabled or not, allowing you to disable stabbing of certain objects dynamically.
+HVRScreenFade: FadeStart / FadeEnd events
+SFXPlayer: code using the singleton updated to check it's existence first.
+
+Example scene Demo UI updated with a Pause example.	
+Gun Example prefabs are updated to use just one RigidBody, stabilizer / pump grabbables now use the main rigidbody for jointing.
+Gun Creator updated to only use one grabbable RigidBody instead of two with a joint.

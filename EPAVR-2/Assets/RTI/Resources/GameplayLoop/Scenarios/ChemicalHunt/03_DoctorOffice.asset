@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 014bd5eda47588747b8233e946f5c00c, type: 3}
+  m_Name: 03_DoctorOffice
+  m_EditorClassIdentifier: 
+  m_title: Doctor's Office
+  m_scene: Scenario4_DoctorOffice
+  m_icon: {fileID: 21300000, guid: 0110525dcb0ad6749a50025f9d30843e, type: 3}
+  m_mapImage: {fileID: 21300000, guid: 16b024626b73f084ea887f3ba17321d8, type: 3}
+  m_summary: 'Locate and identify basic chemical agents within a doctor''s office
+
+'
+  m_briefing: Numerous reports from patients/healthcare workers in this office indicate
+    the release of a potentially harmful chemical. Some people have left with severe
+    headaches and rashes over their skin, and multiple individuals have been hospitalized.
+    First responders have been unable to see any clear source of contamination.
+  m_toolPrefab: {fileID: 0}
+  m_defaultTool: 1
+  m_steps: []
+  m_spawnableChemicals: []
+  m_spawnableChemicalDistribution:
+    items:
+    - weight: 0.5
+      percentage: 55.555553
+      value: {fileID: 11400000, guid: 949a4564063a61e4e8fa07bc4d26d2fa, type: 2}
+    - weight: 0.15
+      percentage: 16.666666
+      value: {fileID: 11400000, guid: 69cdca25032d6e84cb777b2dc8694062, type: 2}
+    - weight: 0.1
+      percentage: 11.111111
+      value: {fileID: 11400000, guid: 8a98b9cdf7263b340bddc33ad81b9aa3, type: 2}
+    - weight: 0.1
+      percentage: 11.111111
+      value: {fileID: 11400000, guid: cad9c4d0fe5e2604c9ef86f56d5e75da, type: 2}
+    - weight: 0.05
+      percentage: 5.5555553
+      value: {fileID: 11400000, guid: 8377bcd7706ffd44193afa18a1369c2e, type: 2}
+    - weight: 0
+      percentage: 0
+      value: {fileID: 11400000, guid: fcc11d308f0b7394ea17dc45801e111f, type: 2}
+  m_maxBonusTime: 15

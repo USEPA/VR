@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8351609106084314600
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4539556216721129526, guid: f24d0e979ce56c6489b4cd28db07b37a, type: 3}
+      propertyPath: m_Name
+      value: Sample Rad Cloud
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539556216721129526, guid: f24d0e979ce56c6489b4cd28db07b37a, type: 3}
+      propertyPath: m_TagString
+      value: RadiationZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539556216721129544, guid: f24d0e979ce56c6489b4cd28db07b37a, type: 3}
+      propertyPath: m_Radius
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539556216721129546, guid: f24d0e979ce56c6489b4cd28db07b37a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539556216721129546, guid: f24d0e979ce56c6489b4cd28db07b37a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539556216721129546, guid: f24d0e979ce56c6489b4cd28db07b37a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539556216721129546, guid: f24d0e979ce56c6489b4cd28db07b37a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539556216721129546, guid: f24d0e979ce56c6489b4cd28db07b37a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539556216721129546, guid: f24d0e979ce56c6489b4cd28db07b37a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539556216721129546, guid: f24d0e979ce56c6489b4cd28db07b37a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539556216721129546, guid: f24d0e979ce56c6489b4cd28db07b37a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539556216721129546, guid: f24d0e979ce56c6489b4cd28db07b37a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539556216721129546, guid: f24d0e979ce56c6489b4cd28db07b37a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539556216721129546, guid: f24d0e979ce56c6489b4cd28db07b37a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2577003515809894714, guid: f24d0e979ce56c6489b4cd28db07b37a, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: f24d0e979ce56c6489b4cd28db07b37a, type: 3}
+--- !u!1 &5555575417727286750 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4539556216721129526, guid: f24d0e979ce56c6489b4cd28db07b37a, type: 3}
+  m_PrefabInstance: {fileID: 8351609106084314600}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &910989910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5555575417727286750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1224186d85cca1c47963de4f8d47a528, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 2
+  m_radiusRange: {x: 10, y: 25}
+  m_windDirectionRange: {x: 0, y: 360}
+  m_coneRadiusAngleRange: 30
+  m_baseRadAmount: 300
+  m_smokePrefab: {fileID: 19800000, guid: 9f9242028cc807241bf2714ada3c7258, type: 3}
+  m_radius: 1.5
+  m_windDirection: 60
+  m_useRandomRadius: 1
+  m_randomizeDirection: 1
+  m_spawnSmokeEffect: 1
+  m_windDirectionVector: {x: 0, y: 0, z: 0}
+  m_targetDistance: 0
+  m_targetAngle: 0
+  m_targetAngleDifference: 0
+  m_coneRadius: 0

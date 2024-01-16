@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: f2e22832abf3138429bd3a8c954eeb0a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_contaminant: {instanceID: 0}
+  - m_sampleUnitPrefab: {instanceID: 0}
+  - m_mesh: {instanceID: 0}
+  - m_collider: {instanceID: 0}
+  - m_toolCollisionMarkerPrefab: {fileID: 6853903924843353104, guid: 9fc0683eadaea10418d442c0f2b23db1, type: 3}
+  - m_currentInteractor: {instanceID: 0}
+  - hitObject: {instanceID: 0}
+  - m_surfaceOutline: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

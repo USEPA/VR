@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &6280231976890298871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7722687709388935626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96d1b667b6234620a01e126539c3f6d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LeftHandPreview: {fileID: 0}
+  RightHandPreview: {fileID: 0}
+  PreviewLeft: 0
+  PreviewRight: 0
+  SelectionIndex: 2
+  PoseNames:
+  - 'Primary: GWPOpen'
+  - GWPClosed
+  - GWPClosed
+  PrimaryPose:
+    Pose: {fileID: 11400000, guid: 4627bbf0165d486488ff5221273238c0, type: 2}
+    Weight: 1
+    Mask: 0
+    Disabled: 0
+    Type: 0
+    Speed: 16
+    AnimationParameter: None
+    ButtonParameter: 0
+    Button: 0
+  Blends:
+  - Pose: {fileID: 11400000, guid: e5662dca011e6774c84170e9ab5a25f2, type: 2}
+    Weight: 1
+    Mask: 59
+    Disabled: 0
+    Type: 2
+    Speed: 16
+    AnimationParameter: None
+    ButtonParameter: 1
+    Button: 0
+  - Pose: {fileID: 11400000, guid: e5662dca011e6774c84170e9ab5a25f2, type: 2}
+    Weight: 1
+    Mask: 4
+    Disabled: 0
+    Type: 2
+    Speed: 16
+    AnimationParameter: None
+    ButtonParameter: 1
+    Button: 1
+  ReferencePose: {fileID: 0}
+  MirrorAxis: 0
+--- !u!114 &6443974072544347319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7722687709388935626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ebbffaca5ed8a340ae381fb8a5695d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PhysicsPoser: {fileID: 0}
+  Hand: {fileID: 0}
+  DefaultPoser: {fileID: 0}
+  UsePhysicsPoser: 0
+  PhysicsGripButton: 0
+  CurrentPose: {fileID: 0}
+  CurrentPoser: {fileID: 0}
+  BlendedPrimary:
+    Position: {x: 0, y: 0, z: 0}
+    Rotation: {x: 0, y: 0, z: 0, w: 0}
+    Thumb:
+      Bones: []
+    Index:
+      Bones: []
+    Middle:
+      Bones: []
+    Ring:
+      Bones: []
+    Pinky:
+      Bones: []
+  BlendedSecondarys: []
+--- !u!1001 &5899060133702338191
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3583181733755375103, guid: f72e575907ff53f46beba559ba544926,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3583181733755375103, guid: f72e575907ff53f46beba559ba544926,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3583181733755375103, guid: f72e575907ff53f46beba559ba544926,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3583181733755375103, guid: f72e575907ff53f46beba559ba544926,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247409440901830469, guid: f72e575907ff53f46beba559ba544926,
+        type: 3}
+      propertyPath: m_Name
+      value: GWP_HURR_Left Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f72e575907ff53f46beba559ba544926, type: 3}
+--- !u!1 &7722687709388935626 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4247409440901830469, guid: f72e575907ff53f46beba559ba544926,
+    type: 3}
+  m_PrefabInstance: {fileID: 5899060133702338191}
+  m_PrefabAsset: {fileID: 0}

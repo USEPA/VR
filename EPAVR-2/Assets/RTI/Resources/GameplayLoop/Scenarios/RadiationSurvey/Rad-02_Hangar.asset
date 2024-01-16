@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 982759efe86bfb54c863c2fd1bfdc74e, type: 3}
+  m_Name: Rad-02_Hangar
+  m_EditorClassIdentifier: 
+  m_title: 'Radiation Survey: Hangar'
+  m_scene: Scenario3_Hangar
+  m_icon: {fileID: 21300000, guid: 5b632a1436bf9ec4d8799fb6f5e97687, type: 3}
+  m_mapImage: {fileID: 21300000, guid: 8b1603e818f928e4e9d5c4ce1b6e3fbb, type: 3}
+  m_summary: Locate and identify zones of active radiation within a military hangar
+  m_briefing: Numerous reports have indicated potential radioactive material within
+    this hangar
+  m_toolPrefab: {fileID: 0}
+  m_defaultTool: 3
+  m_steps: []
+  m_spawnableChemicals: []
+  m_spawnableChemicalDistribution:
+    items: []
+  m_maxBonusTime: 10

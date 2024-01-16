@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d9308a66511bae4a8f1b7ebb8bcc0a8, type: 3}
+  m_Name: Tutorial_ClothSampling
+  m_EditorClassIdentifier: 
+  m_title: 'Tutorial: Microfiber Cloth Surface Sampling'
+  m_scene: Scenario0_ClothWipe
+  m_icon: {fileID: 0}
+  m_summary: Learn the basics of sampling a potentially contaminated surface with
+    a microfiber cloth
+  m_toolPrefab: {fileID: 6297199986818372230, guid: b40a1f3cd24d93548a02d4d3dfeaeef5, type: 3}
+  m_defaultTool: 0
+  m_steps:
+  - m_title: Fold the square Microfiber cloth into a rectangle.
+    m_video: {fileID: 32900000, guid: 6c0f246429394814c9235819625cf892, type: 3}
+    m_enableSampleArea: 0
+  - m_title: Horizontal Sampling
+    m_video: {fileID: 32900000, guid: 89cd3b3c6688e9a459a36be1c847dd35, type: 3}
+    m_enableSampleArea: 1
+  - m_title: Fold the rectangular Microfiber cloth into a square
+    m_video: {fileID: 32900000, guid: c8a8744c8df8c434698940f2a09c9149, type: 3}
+    m_enableSampleArea: 0
+  - m_title: Vertical Sampling
+    m_video: {fileID: 32900000, guid: 1723c40a3a751d141a3f14e5322ee1d4, type: 3}
+    m_enableSampleArea: 1
+  - m_title: Fold the square Microfiber cloth into a triangular shape
+    m_video: {fileID: 32900000, guid: 935a72ffa9f69564d81a8dacc0b7ebfb, type: 3}
+    m_enableSampleArea: 0
+  - m_title: Diagonal Sampling
+    m_video: {fileID: 32900000, guid: 724ddf8cbb652ed49ab512514de6bbf9, type: 3}
+    m_enableSampleArea: 1
+  - m_title: Fold the triangular Microfiber cloth into a triangular shape, but inside
+      out
+    m_video: {fileID: 32900000, guid: a1a2d4b289eab044fba67f91f67cf9de, type: 3}
+    m_enableSampleArea: 0
+  - m_title: Perimeter Sampling
+    m_video: {fileID: 32900000, guid: 0af3d247750ac234f9d0268d97034334, type: 3}
+    m_enableSampleArea: 1

@@ -1,0 +1,319 @@
+fileFormatVersion: 2
+guid: 1db6dab9de200aa44ab4028ddf7d6921
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Book_Online_Sign
+    second: {fileID: 2100000, guid: 21c958d163ef53348bd90777bb6a3816, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Brick_Wall
+    second: {fileID: 2100000, guid: 3f56778ffeb4a034aba60d65e7996ecb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Carpet_Stairs
+    second: {fileID: 2100000, guid: 1d1fa5b947f08f448bd54309715fddab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Ceiling_Elevator
+    second: {fileID: 2100000, guid: 4237d6b63fce08b4493b956036a1f9b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Dark_Gray_Carpet
+    second: {fileID: 2100000, guid: 4e4f1e88b252b0642a8cc2a3ba55d7e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Door_Large
+    second: {fileID: 2100000, guid: 40df6cd8bd1f22f46947bd83dab1337b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Door_Small
+    second: {fileID: 2100000, guid: ca89693a9139e5a4aa8f2d0625bf7bcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Elevator_Partition
+    second: {fileID: 2100000, guid: 477d35676f4b5294ca021127ad7c1b90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Elevator_Section
+    second: {fileID: 2100000, guid: b1c2df1a225545346b0116bd4171d19a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Elevator_Sign
+    second: {fileID: 2100000, guid: b9cf92eea944c1b4790dbc24f3939dcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Elevator_Walls
+    second: {fileID: 2100000, guid: 975532d5a4b2ddf4fbff9b167a7ce3ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Entrance
+    second: {fileID: 2100000, guid: f52efcc2cd041d046adb550720a57b7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Entrance_Ceiling
+    second: {fileID: 2100000, guid: f0a1b17ab23c22b41934212b30d7b9b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Escalator_Stairs
+    second: {fileID: 2100000, guid: 10c738b195cce664aa34a5a71efcad72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Exit_Sign
+    second: {fileID: 2100000, guid: 754f9b50072a00949ba954c6a96a9c93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Fire_Extinguisher
+    second: {fileID: 2100000, guid: 762a8e08def7eeb479cf0366d002f808, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Fire_Extinguisher_Box
+    second: {fileID: 2100000, guid: 75bc79f15df8e8b4bb548f32932d3b74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Floor
+    second: {fileID: 2100000, guid: 4a1576e7615f9f34f85323aeed35e80c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Gray_Rug_Border
+    second: {fileID: 2100000, guid: 5e5a3073ebd2c664ab042d5cd301107d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Hallway_Ceiling_Left
+    second: {fileID: 2100000, guid: 84dd68c718d64a442b100a37be5c496b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Hallway_Ceiling_Right
+    second: {fileID: 2100000, guid: a8cf86daa320ed6438404960b2998a10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Main_Walls
+    second: {fileID: 2100000, guid: 06c7e50390c95ad4b96accb71488ef22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Metal_Railing
+    second: {fileID: 2100000, guid: d2ebed9ab279f5a408f867c1e74140d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_No_Cash_Sign
+    second: {fileID: 2100000, guid: 6b7d0eb30627bcd4a8ec8ef572940ba1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Parking_Sign
+    second: {fileID: 2100000, guid: eb046451c18d2924d8d1cb2d77c2af25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Parking_Ticket_Machine
+    second: {fileID: 2100000, guid: 79ca9a1b0fb63ed4bb5e33fde8fa3cfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Payment_Station
+    second: {fileID: 2100000, guid: 3c6075309e4592e41a993cd8a447856f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_People_Mover
+    second: {fileID: 2100000, guid: f77fff16b96399d4d918c0590c619f91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Sliding_Door
+    second: {fileID: 2100000, guid: 807f877b664250e49a7883d699cb8eea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Small_Elevator_Sign
+    second: {fileID: 2100000, guid: f24400526f502294aa562b24dd4c3175, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Small_Payment_Sign
+    second: {fileID: 2100000, guid: 551a27e0cc1b86947a92185e48f6fa30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Stairs
+    second: {fileID: 2100000, guid: 500c7e025c37af4488a52618ef884220, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Stripe_Rug
+    second: {fileID: 2100000, guid: abd53b4a0d94ddc48abce222cc6b642c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Terminal_2_Sign
+    second: {fileID: 2100000, guid: 3276ffb56c8fd804f9eb6a65e9f2cd04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Terminal_Entrance_Sign
+    second: {fileID: 2100000, guid: 92dbad4cadcfa8b4389248063b6e9d52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Transparency
+    second: {fileID: 2100000, guid: 7fb201f7e8939314988aeb80d62a2094, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Vending_Machine
+    second: {fileID: 2100000, guid: 23c4c2cb8f21d924abfd529b3280ecb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Wall_Bottom_Trim
+    second: {fileID: 2100000, guid: 6d62b60137675dc498839a3a2cd687b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Wall_Middle_Trim
+    second: {fileID: 2100000, guid: 7e0b5b2b692956f458ef2d37886c527e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Wall_Sections
+    second: {fileID: 2100000, guid: 3ddba993e786b1b4fb6aae897d0065ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Wall_Vent
+    second: {fileID: 2100000, guid: 88d8d9bbc3cf4c2458f4b3d1440c6004, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong1
+    second: {fileID: 2100000, guid: 5bf032c4ce8ffb2458338631da4e1658, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1.1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

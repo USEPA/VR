@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a77e8a53b30fe6a46a4b33c3fcffb49a, type: 3}
+  m_Name: 00_Tutorial
+  m_EditorClassIdentifier: 
+  m_title: 'Tutorial: Sampling Devices'
+  m_scene: Scenario0_Tutorial
+  m_icon: {fileID: 21300000, guid: c7d793244ec09be4794b0ad828c77971, type: 3}
+  m_summary: Learn the basics of sampling potentially contaminated areas utilizing
+    various simulated sampling devices
+  m_toolPrefab: {fileID: 0}
+  m_defaultTool: 1
+  m_steps: []
+  m_spawnableChemicals: []
+  m_spawnableChemicalDistribution:
+    items: []
+  m_maxBonusTime: 10

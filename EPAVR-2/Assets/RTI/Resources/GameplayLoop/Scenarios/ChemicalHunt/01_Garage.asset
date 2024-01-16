@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 014bd5eda47588747b8233e946f5c00c, type: 3}
+  m_Name: 01_Garage
+  m_EditorClassIdentifier: 
+  m_title: 'Chemical Hunt: Garage'
+  m_scene: Scenario1_Garage
+  m_icon: {fileID: 21300000, guid: db80f2d38b69907488b4c843c00735d0, type: 3}
+  m_mapImage: {fileID: 21300000, guid: 3f0fa1a7120e14643bc496d6b9cf4470, type: 3}
+  m_summary: Locate and identify basic chemical agents within an industrial storage
+    garage
+  m_briefing: Numerous reports within the area indicate a potential meth production
+    lab within this garage. Neighbors have reported strong chemical odors, and first
+    responders have found numerous propane tanks and drums present.
+  m_toolPrefab: {fileID: 0}
+  m_defaultTool: 1
+  m_steps: []
+  m_spawnableChemicals: []
+  m_spawnableChemicalDistribution:
+    items:
+    - weight: 2
+      percentage: 19.512196
+      value: {fileID: 11400000, guid: e7e660bf985582f498e8f983e6f6add5, type: 2}
+    - weight: 1.75
+      percentage: 17.073172
+      value: {fileID: 11400000, guid: 456b235667ebba241addebfaaca3ac3c, type: 2}
+    - weight: 1.75
+      percentage: 17.073172
+      value: {fileID: 11400000, guid: a3ab3007cc541894a898307a78095a28, type: 2}
+    - weight: 1.75
+      percentage: 17.073172
+      value: {fileID: 11400000, guid: cad9c4d0fe5e2604c9ef86f56d5e75da, type: 2}
+    - weight: 1.5
+      percentage: 14.634147
+      value: {fileID: 11400000, guid: c7cc2e80973a21a449b3738157ed57d6, type: 2}
+    - weight: 1.5
+      percentage: 14.634147
+      value: {fileID: 11400000, guid: 8377bcd7706ffd44193afa18a1369c2e, type: 2}
+    - weight: 0
+      percentage: 0
+      value: {fileID: 11400000, guid: fcc11d308f0b7394ea17dc45801e111f, type: 2}
+  m_maxBonusTime: 15

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 005b7b7d71ccf2547bff685ca00b5b92
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_vaporCloudPrefab: {fileID: 2577003515809894714, guid: f24d0e979ce56c6489b4cd28db07b37a, type: 3}
+  - m_presetOrigin: {instanceID: 0}
+  - m_defaultAgent: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

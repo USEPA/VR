@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: cd3aa4db0a78ed24dbbebd1e371ee4d4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_presetSite: {instanceID: 0}
+  - m_presetAgent: {instanceID: 0}
+  - m_collisionPainterPrefab: {fileID: 1302371835834051435, guid: aa084a5115f08ea49be134e540b9d85e, type: 3}
+  - m_randomOriginMarker: {instanceID: 0}
+  - m_closestPointMarker: {instanceID: 0}
+  - m_originMarker: {instanceID: 0}
+  - m_closestPaintable: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

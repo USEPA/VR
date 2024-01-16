@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 182890185db159141af70a63049da110
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_vaporCloudPrefab: {instanceID: 0}
+  - m_presetOrigin: {instanceID: 0}
+  - m_presetObject: {instanceID: 0}
+  - m_defaultAgent: {instanceID: 0}
+  - ClosestPaintable: {instanceID: 0}
+  - m_radCloudPrefab: {fileID: 910989910, guid: 76dd2694017016140bc4509b1a322fe4, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

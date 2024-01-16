@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: becb07c7d7e24b889e62802a34e26d48, type: 3}
+  m_Name: gwp left
+  m_EditorClassIdentifier: 
+  UseThumbSetting: 0
+  UseIndexSetting: 1
+  UseMiddleSetting: 1
+  UseRingSetting: 1
+  UsePinkySetting: 0
+  ThumbSetting:
+    XRotation: 0
+    YRotation: 0
+    ZRotation: 0
+    XPosition: 0
+    YPosition: 0
+    ZPosition: 0
+  IndexSetting:
+    XRotation: 0
+    YRotation: 1
+    ZRotation: 1
+    XPosition: 0
+    YPosition: 1
+    ZPosition: 1
+  MiddleSetting:
+    XRotation: 0
+    YRotation: 1
+    ZRotation: 1
+    XPosition: 0
+    YPosition: 1
+    ZPosition: 1
+  RingSetting:
+    XRotation: 0
+    YRotation: 1
+    ZRotation: 1
+    XPosition: 0
+    YPosition: 1
+    ZPosition: 1
+  PinkySetting:
+    XRotation: 0
+    YRotation: 0
+    ZRotation: 0
+    XPosition: 0
+    YPosition: 0
+    ZPosition: 0
+  ThumbSettings:
+  - XRotation: 3
+    YRotation: 0
+    ZRotation: 1
+    XPosition: 0
+    YPosition: 0
+    ZPosition: 0
+  - XRotation: 0
+    YRotation: 1
+    ZRotation: 1
+    XPosition: 0
+    YPosition: 1
+    ZPosition: 1
+  - XRotation: 0
+    YRotation: 1
+    ZRotation: 1
+    XPosition: 0
+    YPosition: 1
+    ZPosition: 1
+  IndexSettings: []
+  MiddleSettings: []
+  RingSettings: []
+  PinkySettings: []

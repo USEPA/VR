@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 982759efe86bfb54c863c2fd1bfdc74e, type: 3}
+  m_Name: Rad-01_Garage
+  m_EditorClassIdentifier: 
+  m_title: 'Radiation Survey: Garage'
+  m_scene: Scenario1_Garage
+  m_icon: {fileID: 21300000, guid: db80f2d38b69907488b4c843c00735d0, type: 3}
+  m_mapImage: {fileID: 21300000, guid: 3f0fa1a7120e14643bc496d6b9cf4470, type: 3}
+  m_summary: Locate and identify zones of active radiation within an industrial storage
+    garage
+  m_briefing: 'Numerous reports have indicated potential radioactive material within
+    this garage. '
+  m_toolPrefab: {fileID: 0}
+  m_defaultTool: 3
+  m_steps: []
+  m_spawnableChemicals: []
+  m_spawnableChemicalDistribution:
+    items: []
+  m_maxBonusTime: 10
